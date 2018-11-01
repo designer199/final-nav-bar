@@ -6,8 +6,16 @@
 
 
 - [x] Counter section is completed and responsive for mobile ,tablet and desktop.
+  
+  ### Desktop View     
+  ![](images/destopview.png) 
+  
+  ### Tablet View
+  ![](images/tabletview.png)  
 
-       
+### Mobile View
+
+![](images/mobileview.png) 
 
 - [ ] I am currently working to make the add booking form responsive.
 
