@@ -62,4 +62,64 @@ body {
    
     
   
- 
+ /***Number counter styling****/
+ .center-section
+ {
+   margin:auto;
+ }
+ .numbers__item
+ {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 2px;
+    box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.2);
+ }
+ .numbers__value {
+    font-weight: bold;
+    text-align: center;
+   font-size:1.2rem;
+    margin: 0;
+}
+ .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+   grid-gap:10px;
+   padding:0 20px;
+   }
+   .numbers__text {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+.svg-rupee
+{
+    width:1.3rem;
+    height:1.3rem;
+}
+.value-rupee
+{
+    display:inline;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+}
+@media (min-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+  @media screen and (min-width: 1028px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+       grid-gap:10px;
+       padding:0 20px;
+       
+      }
+.mt1
+{
+    margin-top:10px;
+}
+}
